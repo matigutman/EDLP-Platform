@@ -150,6 +150,22 @@
                   </select>
                 </div>
 
+                    <div class="form-group">
+                    <label for="uploadedFile">Archivo</label>
+                    <input type="file" name="uploadedFile" class="form-control custom-select" />
+                  </div>
+
+                <div class="form-group">
+                  <label for="description">Observación</label>
+                  <textarea class="form-control" name="description" required></textarea>
+                </div>
+
+                 <div class="row">
+                  <div class="col-12">
+                    <input type="submit" value="Guardar" id="sendButton" style="width: 100%;" class="btn btn-success">
+                  </div>
+                </div>
+
                 <div id="lesionData" style="display: none;">
                   
                   <div class="form-group">
@@ -445,22 +461,6 @@
     </div>
   </div>
 </div>
-
-
-                <div class="form-group">
-                    <label for="uploadedFile">Archivo</label>
-                    <input type="file" name="uploadedFile" class="form-control custom-select" />
-                  </div>
-
-                <div class="form-group">
-                  <label for="description">Observación</label>
-                  <textarea class="form-control" name="description" required></textarea>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <input type="submit" value="Guardar" id="sendButton" style="width: 100%;" class="btn btn-success">
-                  </div>
-                </div>
 
               </form>
             </div>
